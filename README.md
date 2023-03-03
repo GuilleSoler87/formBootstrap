@@ -48,7 +48,7 @@ En los códigos JavaScript encontramos funciones del tipo:
 
 - setTimeout(function ()) {} --- (Realizar acciones una vez transcurrido el tiempo definido).
 
-- function pintar() {inData.forEach(function (persona)) {}} --- Pintar en el DOM la información extraida del Local Storage.
+- function pintar() {inData.forEach(function (persona)) {}} --- (Pintar en el DOM la información extraida del Local Storage).
 
 ## Construido con 🛠️
 
