@@ -42,8 +42,7 @@ En los códigos JavaScript encontramos funciones del tipo:
 
 - De condición (if, else if, else) --- (Se realizan ciertas acciones cuando se cumplen las condiciones o no se cumplen).
 
-- localStorage.setItem("usuarios", JSON.stringify(inData)); --- (Subir información al Local Storage haya o no contenido previo en la array, en  
-  combinación con el código inferior).
+- localStorage.setItem("usuarios", JSON.stringify(inData)); --- (Subir información al Local Storage haya o no contenido previo en la array, en combinación con el código inferior).
 
 - const inData = JSON.parse(localStorage.getItem("usuarios")) || []; --- (Acceder a la información del local storage).
 
@@ -69,7 +68,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 * **Guillermo Soler Fernández** - *Proyecto Bootstrap1* - [GuilleSoler87](https://github.com/GuilleSoler87)
 
-* **Gonzalo** - *Proyecto Bootstrap1* - [Goner10](https://github.com/Goner10)
+* **Gonzalo Martí Peirats** - *Proyecto Bootstrap1* - [Goner10](https://github.com/Goner10)
 
 
 ## Licencia 📄
