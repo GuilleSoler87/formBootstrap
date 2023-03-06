@@ -1,10 +1,10 @@
-
+const container = document.querySelector(".container");
 function pintar() {
     const inData = JSON.parse(localStorage.getItem("usuarios")) || [];
-    const container = document.querySelector(".container");
+   
 
     inData.forEach(function (persona) {
-        container.innerHTML += `<div class="card" style="width: 18rem;">
+        container.innerHTML += `<div class="card m-1 " style="width: 18rem; ">
 <img src="../assets/images/g2project/istockphoto.jpg" class="card-img-top" alt="...">
 <div class="card-body">
   <p id="nombre"> ${persona.nombre}</p>
@@ -15,9 +15,6 @@ function pintar() {
 }
 
 pintar()
-
-//En la linea 27 me salta un conflicto que me dice que container no está definido, sí hace lo que le digo que es borrar todo el contenido del local storage, pero no lo hace de forma automática y los cambios no se ven efectivos hasta que no refrescas la página 
-
 
 const btnBorrar = document.getElementById("btn-borrar");
 
